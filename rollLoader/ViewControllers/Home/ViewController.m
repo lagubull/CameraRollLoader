@@ -14,14 +14,19 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+#pragma mark - ViewLifeCycle
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - ButtonActions
+
+- (IBAction)startImporting:(id)sender
+{
+    
 }
 
 @end
